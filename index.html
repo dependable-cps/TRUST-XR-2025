@@ -644,8 +644,8 @@
             </div>
             <div
                 style="margin-bottom: 28px; background: #f8f9fb; padding: 20px 24px 18px 24px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
-                <h4 style="margin-bottom: 4px; color: #233772;">Cybersickness Severity Classification from VR Gameplay
-                    Videos Using Transfer Learning and Temporal Modeling
+                <h4 style="margin-bottom: 4px; color: #233772;">Towards Cybersickness Severity Classification from VR Gameplay Videos
+                    Using Transfer Learning and Temporal Modeling
                 </h4>
                 <div style="color: #666; margin-bottom: 6px; font-size: 19px;">
                     Jyotirmay Nag Setu, Kevin Desai, John Quarles
@@ -853,14 +853,19 @@
     <script src="./theme/bootstrap.min.js"></script>
     <script>
         $(document).ready(function () {
+            // Enable smooth scrolling for anchor links
             $('a[href^="#"]').on('click', function (e) {
                 e.preventDefault();
                 $('html, body').animate({
                     scrollTop: $($(this).attr('href')).offset().top - 70
                 }, 800);
             });
+
+            // Ensure dropdowns work
+            $('.dropdown-toggle').dropdown();
         });
     </script>
+
 
 </body>
 
